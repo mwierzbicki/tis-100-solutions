@@ -1,0 +1,40 @@
+@0
+
+
+@1
+
+
+@2
+BEG:MOV UP,ACC
+JEZ KON
+SWP
+MOV ACC,LEFT
+ADD 1
+SWP
+JMP BEG
+KON:MOV 0,ACC
+SAV
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+
+
+@10
+

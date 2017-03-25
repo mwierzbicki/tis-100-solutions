@@ -1,0 +1,48 @@
+@0
+##NO SWP & SAV
+
+@1
+STA:MOV UP,ACC
+    JEZ KON
+    MOV ACC,DOWN
+    MOV 1,RIGHT
+    JMP STA
+KON:MOV -999,RIGHT
+    MOV -999,DOWN
+
+@2
+STA:ADD LEFT
+    JLZ RES
+    JMP STA
+RES:ADD 999
+    MOV ACC,DOWN
+    MOV NIL,ACC
+
+@3
+
+
+@4
+STA:ADD UP
+    JLZ RES
+    JMP STA
+RES:ADD 999
+    MOV ACC,DOWN
+    MOV NIL,ACC
+
+@5
+MOV UP,DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP,DOWN
+
+@9
+MOV UP,DOWN
+
+@10
+

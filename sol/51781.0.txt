@@ -1,0 +1,46 @@
+@0
+##SINGLE-CORE SOL
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+STA:MOV ACC,DOWN
+SWP
+MOV ACC,DOWN
+SWP
+SUB 29
+JEZ KON
+JGZ KON
+ADD 31
+MOV 3,DOWN
+MOV -1,DOWN
+JMP STA
+KON:SWP
+ADD 1
+SWP
+JRO -6
+
+@10
+

@@ -1,0 +1,32 @@
+@0
+STA: MOV UP,ACC
+JEZ END
+MOV ACC,RIGHT
+MOV ACC,RIGHT
+JMP STA
+END: MOV NIL,DOWN
+MOV DOWN,NIL
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+

@@ -1,0 +1,43 @@
+@0
+
+
+@1
+BEG: MOV UP,ACC
+STA: MOV ACC,DOWN
+     SWP
+     ADD DOWN
+     SWP
+     SUB 1
+     JEZ KON
+     JMP STA
+KON: MOV -1,DOWN
+     SWP
+     MOV ACC,DOWN
+
+@2
+
+
+@3
+
+
+@4
+STA: MOV UP,ACC
+     JLZ KON
+     MOV ACC,UP
+     JMP STA
+KON: MOV UP,DOWN
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP,DOWN
+
+@9
+
